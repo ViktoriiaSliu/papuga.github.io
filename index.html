@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon.png" data-mce-href="/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" data-mce-href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192" data-mce-href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" data-mce-href="/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PAPUGA</title>
+</head>
+<body>
+   <div class="back">
+    <div>
+        <img src="img/f90fc85cf18e351c565692dcb1c0feeb_w200.gif" onclick="frout();" id="img" alt="papuga">
+        <audio controls preload="auto" autoplay="true">
+      <source src="audio/1541231729_1538758482_2_-skibidi.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <p class="text">PAMAGITI</p>
+    </div>
+    
+    </div>
+    <script type="text/javascript">
+			var chet = 1;
+			window.onload = function () { setTimeout(frout, 3000); }
+			function frout() {
+			chet++;
+			if (chet>3) {chet=0;}
+				switch(chet) {
+				case 1:
+					document.getElementById('img').src = "img/f90fc85cf18e351c565692dcb1c0feeb_w200.gif";
+					break;
+				case 2:
+					document.getElementById('img').src = "img/sithparrot.gif";
+					break;
+				case 3:
+					document.getElementById('img').src = "img/source.gif";
+					break;
+				}
+			setTimeout(frout, 3000);
+			}
+</script>
+</body>
+ 
+</html>
